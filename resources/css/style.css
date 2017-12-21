@@ -7,6 +7,7 @@ body {
   color: seashell;
   opacity: 0.9;
   text-align: center;
+  margin-top: 0px;
 }
 
 a {
@@ -59,7 +60,7 @@ header nav {
 
 /* Content Mission */
 
-.mission {
+#mission {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,25 +69,25 @@ header nav {
   height: 700px;
 }
 
-.mission .text-content {
+#mission .text-content {
   background-color: black;
   width: 100%;
 }
 
 /* Content Tea of the month */
 
-.store {
+#store {
   width: 1000px;
   height: 700px;
   margin: auto;
   padding-top: 70px;
+  padding-bottom: 50px;
 }
 
 .teas {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 1000px;
 }
 
 .tea-single {
@@ -102,4 +103,41 @@ header nav {
 
 .tea-single span {
   display: block;
+}
+
+/* content Locations */
+
+#locations {
+  height: 500px;
+  background-image: url('../images/img-locations-background.jpg');
+  display: block;
+  padding-top: 70px;
+}
+
+.all-locations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.location {
+  display: inline-block;
+  background-color: black;
+  margin: 15px 20px;
+  width: 300px;
+  opacity: 1;
+}
+
+/* content information */
+
+#info {
+    height: 200px;
+}
+
+/* footer */
+
+footer {
+  text-align: left;
+  margin-left: 20px;
 }
